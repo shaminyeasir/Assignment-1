@@ -1,7 +1,8 @@
-body {
+header,main {
     font-family: "Fira Sans", sans-serif;
     padding-left: 160px;
     padding-right: 160px;
+    background-color: rgba(245, 245, 245, 0.911);
 }
 
 .navigation{
@@ -21,10 +22,11 @@ body {
     border-radius: 8px;
     border: 1px solid rgb(0,106,80);
     background-color: rgb(245,245,245);
+
 }
 
 .nav_btn_font:hover{
-    background-color: rgb(18, 250, 200);
+    background-color: rgb(177, 245, 230);
 }
 
 .banner{
@@ -52,6 +54,10 @@ body {
     color: rgb(255,255,255);
     font-size: 18px;
     font-weight: 600;
+    border: none;
+}
+.banner_btn:hover{
+    background-color: rgb(6, 156, 119);
 }
 
 .pillars_head{
@@ -136,6 +142,10 @@ body {
     padding: 11px 20px;
     border-radius: 8px;
     background-color: rgb(84, 144, 245);
+    border: none;
+}
+.vision_btn1:hover{
+    background-color: rgb(35, 112, 245);   
 }
 .vision_btn2{
     color: rgb(255, 255, 255);
@@ -144,6 +154,10 @@ body {
     padding: 11px 20px;
     border-radius: 8px;
     background-color: rgb(9, 161, 92);
+    border: none;
+}
+.vision_btn2:hover{
+    background-color: rgb(2, 73, 41);
 }
 .vision_btn3{
     color: rgb(255, 255, 255);
@@ -151,7 +165,11 @@ body {
     font-weight: 600;
     padding: 11px 20px;
     border-radius: 8px;
-    background-color: rgb(255, 194, 57);
+    background: rgb(255, 194, 57);
+    border: none;
+}
+.vision_btn3:hover{
+    background-color: rgb(218, 159, 23);
 }
 
 .vision_part2{
@@ -198,4 +216,214 @@ body {
     display: flex;
     flex-direction: column;
     gap: 80px;
+}
+
+.recent_part1_head{
+    color: rgb(14,14,14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.recent_part1_body{
+    color: rgb(14,14,14,0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.recent_part2_text_head{
+    font-size: 32px;
+    font-weight: 700;
+    color: (14, 14, 14, 0.8);
+}
+
+.recent_part2_text_body{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(14, 14, 14, 0.7);
+
+}
+.recent_part2_text_date{
+    font-size: 16px;
+    font-weight: 400;
+    color: (14, 14, 14, 0.7);
+
+}
+.recent_btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 13px 26px;
+    background: rgb(0, 106, 80);
+}
+.recent_btn:hover{
+    background: rgb(2, 156, 118);
+}
+
+.recent_part2{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.recent_part2_img{
+    
+    border-radius: 24px;
+}
+
+.recent_part3{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.recent{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.donate_head{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(14,14,14);
+}
+.donate_body{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(14,14,14,0.7);
+    text-align: center;
+}
+
+.btn_100tk{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+.btn_100tk:hover{
+    background-color: rgb(146, 161, 243);
+}
+
+.btn_200tk{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(198, 228, 214);
+}
+.btn_200tk:hover{
+    background-color: rgb(146, 161, 243);
+}
+
+.donate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    height: 464px;
+    margin-bottom: 200px;
+    
+}
+
+.tk_btn{
+    display: flex;
+    gap: 24px;
+}
+.tk_text{
+    width: 850px;
+    text-align: center;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    font-weight: 400;
+}
+
+.donate_btn{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    padding: 17px 34px;
+}
+.donate_btn:hover{
+    background-color: rgb(6, 156, 119);
+}
+.subscribe{
+    border-radius: 24px;
+    background-color: rgb(198, 228, 214);
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe_text{
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 500px;
+}
+.subscribe_btn{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgb(0, 106, 80);
+    padding: 17px 34px;
+}
+.subscribe_btn:hover{
+    background-color: rgb(6, 156, 119);
+}
+.input_subscribe_btn{
+    display: flex;
+}
+
+.footer_part{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 160px;
+    align-items: center;
+}
+.footer_head{
+    color: rgb(14, 14, 14);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.footer_img{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.hr_line{
+    width: 1000px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    padding-left: 50px 160px;
 }
