@@ -1,4 +1,4 @@
-header,main {
+header, main {
     font-family: "Fira Sans", sans-serif;
     padding-left: 160px;
     padding-right: 160px;
@@ -54,7 +54,7 @@ header,main {
     color: rgb(255,255,255);
     font-size: 18px;
     font-weight: 600;
-    border: none;
+    /* border: none; */
 }
 .banner_btn:hover{
     background-color: rgb(6, 156, 119);
@@ -255,7 +255,6 @@ header,main {
     border-radius: 8px;
     padding: 13px 26px;
     background: rgb(0, 106, 80);
-    border: none;
 }
 .recent_btn:hover{
     background: rgb(2, 156, 118);
@@ -360,11 +359,9 @@ header,main {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
-    border: 1px solid rgba(14, 14, 14, 0.1);
     border-radius: 8px;
     background-color: rgb(0, 106, 80);
     padding: 17px 34px;
-    border: none;
 }
 .donate_btn:hover{
     background-color: rgb(6, 156, 119);
@@ -396,7 +393,6 @@ header,main {
     border-radius: 0px 8px 8px 0px;
     background-color: rgb(0, 106, 80);
     padding: 17px 34px;
-    border: none;
 }
 .subscribe_btn:hover{
     background-color: rgb(6, 156, 119);
