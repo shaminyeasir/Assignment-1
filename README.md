@@ -38,6 +38,6 @@ This project is built purely using **HTML**, **CSS**, and **JavaScript**, and do
 To run this project on your local machine, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/bangladesh-2.0.git
+   git clone https://github.com/shaminyeasir/bangladesh-2.0.git
 2. Install the dependencies and run!
    
